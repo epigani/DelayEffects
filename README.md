@@ -1,16 +1,14 @@
-# DelayEffects
-Code for generating data used in the paper ["Delay effects on the stability of large ecosystems"](https://www.pnas.org/doi/full/10.1073/pnas.2211449119).
+# DelatEffectsOnStability
+Understanding how communities emerge from a large number of interacting entities is a long-standing question in several fields. In ecosystems with randomly coupled species, a delayed dynamics seemed to play a minor role in characterizing the stability close to equilibrium. Here, we study the effects on large ecosystems of species’ interactions that are random as well as delayed. We find that near equilibrium, delayed self-interactions greatly modify the eigenspectrum distribution as predicted by Wigner’s as well as Girko’s laws. We analytically calculate the ensued generalized laws and identify the geometric profile of the eigenvalues in the complex plane.
+
+In this repository, we provide the Python code for generating the data used in the paper ["Delay effects on the stability of large ecosystems"](https://www.pnas.org/doi/full/10.1073/pnas.2211449119).
 
 ## Requirements
 The code is written in Python 3.7.4 and requires the following packages:
 * numpy
 * scipy
 * matplotlib
-* pandas
 * seaborn
-* tqdm
-* joblib
-* numba
 
 ## Usage
 The code is organized in the following way:
